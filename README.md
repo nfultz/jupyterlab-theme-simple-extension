@@ -7,3 +7,7 @@ A JupyterLab theme extension which provides a simpler theme from a more civilize
 Here is what it took to get this working:
 
     npm install; npm install typescript; npm run build; npm run build:webpack; jupyter labextension install --debug .
+
+## Obligatory Screenshot
+
+![Simple Theme In Action](https://i.imgur.com/e0dxKsv.png)
