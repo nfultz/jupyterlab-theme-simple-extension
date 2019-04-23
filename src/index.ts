@@ -6,16 +6,16 @@ import { JupyterLab, JupyterLabPlugin } from '@jupyterlab/application';
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * A plugin for the Jupyter Light Theme.
+ * A plugin for the Jupyter Simple Theme.
  */
 const plugin: JupyterLabPlugin<void> = {
-  id: '@jupyterlab/theme-simple-extension:plugin',
+  id: '@nfultz/jupyterlab-theme-simple-extension:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterLab, manager: IThemeManager) {
-    const style = '@jupyterlab/theme-simple-extension/index.css';
+  const style = '@nfultz/jupyterlab-theme-simple-extension/index.css';
 
     manager.register({
-      name: 'JupyterLab Light',
+      name: 'JupyterLab Simple',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
