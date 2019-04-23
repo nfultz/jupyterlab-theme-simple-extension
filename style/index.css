@@ -6,6 +6,9 @@
 @import './variables.css';
 @import './urls.css';
 
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 /* Set the default typography for monospace elements */
 tt,
 code,
