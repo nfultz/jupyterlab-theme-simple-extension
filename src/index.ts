@@ -9,10 +9,10 @@ import { IThemeManager } from '@jupyterlab/apputils';
  * A plugin for the Jupyter Light Theme.
  */
 const plugin: JupyterLabPlugin<void> = {
-  id: '@jupyterlab/theme-light-extension:plugin',
+  id: '@jupyterlab/theme-simple-extension:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterLab, manager: IThemeManager) {
-    const style = '@jupyterlab/theme-light-extension/index.css';
+    const style = '@jupyterlab/theme-simple-extension/index.css';
 
     manager.register({
       name: 'JupyterLab Light',

@@ -1,7 +1,7 @@
 {
-  "name": "@jupyterlab/theme-light-extension",
+  "name": "@jupyterlab/theme-simple-extension",
   "version": "0.19.1",
-  "description": "JupyterLab - Default Light Theme",
+  "description": "JupyterLab - Default simple Theme",
   "homepage": "https://github.com/jupyterlab/jupyterlab",
   "bugs": {
     "url": "https://github.com/jupyterlab/jupyterlab/issues"
