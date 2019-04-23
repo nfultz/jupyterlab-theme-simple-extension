@@ -19,3 +19,15 @@ pre {
   font-size: var(--jp-code-font-size);
   line-height: var(--jp-code-line-height);
 }
+
+.cm-s-jupyter span.cm-keyword {
+  font-weight: unset;
+}
+
+.cm-s-jupyter span.cm-comment {
+    font-style: unset;
+}
+
+.cm-s-jupyter span.cm-operator {
+    font-weight: unset;
+}
