@@ -318,30 +318,30 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: #008000;
-  --jp-mirror-editor-atom-color: #88f;
-  --jp-mirror-editor-number-color: #080;
-  --jp-mirror-editor-def-color: #00f;
-  --jp-mirror-editor-variable-color: var(--md-grey-900);
-  --jp-mirror-editor-variable-2-color: #05a;
-  --jp-mirror-editor-variable-3-color: #085;
-  --jp-mirror-editor-punctuation-color: #05a;
-  --jp-mirror-editor-property-color: #05a;
-  --jp-mirror-editor-operator-color: #aa22ff;
-  --jp-mirror-editor-comment-color: #408080;
-  --jp-mirror-editor-string-color: #ba2121;
-  --jp-mirror-editor-string-2-color: #708;
-  --jp-mirror-editor-meta-color: #aa22ff;
-  --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: #008000;
-  --jp-mirror-editor-bracket-color: #997;
-  --jp-mirror-editor-tag-color: #170;
-  --jp-mirror-editor-attribute-color: #00c;
+  --jp-mirror-editor-keyword-color: #020202;
+  --jp-mirror-editor-atom-color: #020202;
+  --jp-mirror-editor-number-color: #020202;
+  --jp-mirror-editor-def-color: #020202;
+  --jp-mirror-editor-variable-color: #020202;;
+  --jp-mirror-editor-variable-2-color: #020202;
+  --jp-mirror-editor-variable-3-color: #020202;
+  --jp-mirror-editor-punctuation-color: #020202;
+  --jp-mirror-editor-property-color: #020202;
+  --jp-mirror-editor-operator-color: #020202;
+  --jp-mirror-editor-comment-color: #0202a2;
+  --jp-mirror-editor-string-color: #0202a2;
+  --jp-mirror-editor-string-2-color: #0202a2;
+  --jp-mirror-editor-meta-color: #020202;
+  --jp-mirror-editor-qualifier-color: #020202;
+  --jp-mirror-editor-builtin-color: #020202;
+  --jp-mirror-editor-bracket-color: #020202;
+  --jp-mirror-editor-tag-color: #020202;
+  --jp-mirror-editor-attribute-color: #020202;
   --jp-mirror-editor-header-color: blue;
-  --jp-mirror-editor-quote-color: #090;
-  --jp-mirror-editor-link-color: #00c;
-  --jp-mirror-editor-error-color: #f00;
-  --jp-mirror-editor-hr-color: #999;
+  --jp-mirror-editor-quote-color: #020202;
+  --jp-mirror-editor-link-color: #020202;
+  --jp-mirror-editor-error-color: #020202;
+  --jp-mirror-editor-hr-color: #020202;
 
   /* Vega extension styles */
 
