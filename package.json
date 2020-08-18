@@ -1,6 +1,6 @@
 {
   "name": "@nfultz/jupyterlab-theme-simple-extension",
-  "version": "0.19.1",
+  "version": "0.19.2",
   "description": "JupyterLab - Default simple Theme",
   "homepage": "https://github.com/nfultz/jupyterlab-theme-simple-extension",
   "bugs": {
@@ -21,11 +21,11 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
-    "lib": "lib/"
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nfultz/jupyterlab-theme-simple-extension.git"
+    "url": "git+https://github.com/nfultz/jupyterlab-theme-simple-extension.git"
   },
   "scripts": {
     "build": "tsc -b",
@@ -62,5 +62,9 @@
   "jupyterlab": {
     "extension": true,
     "themePath": "static/index.css"
-  }
+  },
+  "keywords": [
+    "jupyterlab",
+    "theme"
+  ]
 }
